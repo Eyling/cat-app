@@ -14,6 +14,12 @@ app.config(function($routeProvider) {
   })
 
   // veterinary page
+  .when('/toys', {
+    templateUrl: 'views/toys.html',
+    controller: 'toysController'
+  })
+
+  // veterinary page
   .when('/veterinary', {
     templateUrl: 'views/veterinary.html',
     controller: 'veterinaryController'
