@@ -1,4 +1,4 @@
-app.factory('titleService', function($rootScope) {	
+app.factory('titleService', function($rootScope) {
   var titleService = {};
   titleService.title = '';
   titleService.prepForBroadcast = function(title) {
