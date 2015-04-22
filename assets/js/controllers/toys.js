@@ -1,3 +1,3 @@
-app.controller('foodController', function(titleService) {
-  titleService.prepForBroadcast('Alimentos');
+app.controller('toysController', function(titleService) {
+  titleService.prepForBroadcast('Juguetes');
 });
